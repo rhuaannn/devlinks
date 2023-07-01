@@ -5,17 +5,17 @@ import "../../GlobalStyle.css";
 
 
 
-const Home = ({ profileImg }) => {
+const Home = ({ profileImg, name, phone, email, description }) => {
   return (
     
    <>
         <img src={profileImg} alt="Profile" />
-        <h1>Rhuan Marques</h1>
+        <h1>{name}</h1>
         <hr />
-        <h2>FullStack Developer - ReactJs - Nodejs - Sql</h2>
+        <h2>{description}</h2>
         <hr />
-        <p>+55(62)9-982481606</p>
-        <p>rhuanmarques1223@gmail.com</p>
+        <p>{phone}</p>
+        <p>{email}</p>
         <br />
 </>
     
