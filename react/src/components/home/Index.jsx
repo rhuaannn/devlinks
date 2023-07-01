@@ -11,7 +11,7 @@ const Home = ({ profileImg }) => {
         <img src={profileImg} alt="Profile" />
         <h1>Rhuan Marques</h1>
         <hr />
-        <h2>FullStack Develop - ReactJs - Nodejs - Sql</h2>
+        <h2>FullStack Developer - ReactJs - Nodejs - Sql</h2>
         <hr />
         <p>+55(62)9-982481606</p>
         <p>rhuanmarques1223@gmail.com</p>
