@@ -1,10 +1,24 @@
-.btn {
+/* Style.css */
+
+button {
   background-color: black;
   color: white;
-  width: 8em;
+  width: 7em;
   padding: 0.7em;
-  border-radius: 6px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  box-shadow: rgb(0, 0, 0.7);
+  border-radius: 7px;
   cursor: pointer;
-   
+}
+
+button:hover {
+  border-radius: 0px;
+}
+
+button.dark-mode {
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+}
+button.dark-mode:hover {
+  border-radius: 7px;
 }

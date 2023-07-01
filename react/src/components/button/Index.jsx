@@ -1,13 +1,14 @@
 import react from "react";
 
 import "./Style.css"
-const Button = ({title, url} ) => {
+const Button = ({title, url, style} ) => {
 
   const handleBtnClickHref = (  ) => {
+    
     window.open (url,'_blank')
   }
   return (
-    <button className="btn" onClick={handleBtnClickHref}>{title}</button>
+    <button onClick={handleBtnClickHref} style={style}>{title}</button>
   )
 }
 
