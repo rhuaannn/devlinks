@@ -8,7 +8,10 @@ const Button = ({title, url, style} ) => {
     window.open (url,'_blank')
   }
   return (
-    <button onClick={handleBtnClickHref} style={style}>{title}</button>
+    <>
+    <button onClick={handleBtnClickHref}  style={style}>{title}</button>
+     
+    </>
   )
 }
 

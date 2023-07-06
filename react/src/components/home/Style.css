@@ -25,6 +25,10 @@ img {
   height: 9.5em;
   border-radius: 50%;
 }
+.follow{
+  margin-left: 15px;
+  
+}
  
  h1, h2, p{
   border-bottom: 1px solid rgb(181, 171, 171);

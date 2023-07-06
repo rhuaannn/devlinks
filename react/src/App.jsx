@@ -1,15 +1,11 @@
 import React from "react";
 
-import Layout from "./components/theme/Index";
-
- 
+import Theme from "./components/theme/Index";
 
 function App() {
   return (
     <>
-    
-      <Layout  />
-   
+      <Theme />
     </>
   );
 }
